@@ -1,0 +1,124 @@
+
+@media (max-width:420px){
+    .menu{
+        align-items: center;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+    .container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .container1 img{
+    margin-left: 45px;
+    }
+    .titulo{
+        color: #F7CE3E;
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: left;
+        justify-self: center;
+        margin-top: 13px;
+        padding-left: 0;
+    }
+    .titulo-comprar{
+        font-size: 20px;
+        text-align: left;
+    }
+    .titulodiv{
+        margin-left: -80px;
+        font-size: 20px;
+    }
+
+    .menubotones ul{
+        /* display: flex;
+        justify-content: center; */
+        width: 100%;
+        display: inline;
+        gap: 3px;
+    }
+
+    .frase{
+        height: 100px;
+        background-color: #0D1D18;
+        border-top: 2px solid black;
+        bottom: 100px;
+    }
+
+    .formulario-contacto{
+        width: 250px;
+        padding: 20px;
+        margin-top: 28px;
+        margin-left: 20px;
+        background-color: rgb(138, 138, 138);
+        border-color: black;
+        border-radius: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .titulo-vender{
+        margin-left: 20px;
+    }
+    .titulo-contacto{
+        margin-left: 20px;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+
+@media (min-width:320px)and(max-width:820){
+    .menu{
+        align-items: center;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        ;
+    }
+    .container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .container1 img{
+    margin-left: 45px;
+    }
+
+    .titulo{
+        color: #F7CE3E;
+        font-size: 20px;
+        margin-left: 5px;
+        text-align: left;
+        justify-self: center;
+        margin-top: 13px;
+        padding-left: 0;
+    }
+    .titulo-comprar{
+        font-size: 20px;
+        text-align: left;
+    }
+    .titulodiv{
+        margin-left: -80px;
+        font-size: 20px;
+    }
+
+    .menubotones ul{
+        /* display: flex;
+        justify-content: center; */
+        width: 100%;
+        display: inline;
+        gap: 3px;
+}
+.titulo-vender{
+    margin-left: 20px;
+}
+.titulo-contacto{
+    margin-left: 20px;
+}
+}

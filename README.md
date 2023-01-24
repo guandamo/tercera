@@ -1,0 +1,3 @@
+Martinez bienes raices es una inmobiliaria que busca mejorar la vida de las personas y encontrar la mejor opcion para lo que estan buscando.
+En la esquina superior nos encontramos con el menu el cual tiene opciones para comprar, vender y alquilar una propiedad, nos encontraremos con el valor de la propiedad, y en otra pestaña podremos contactarnos llenando un formulario.
+Lenguajes utilizados: HTML, CSS y SCSS
