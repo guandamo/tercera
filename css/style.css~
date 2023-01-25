@@ -1,0 +1,509 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menubotones {
+  margin-right: 50px;
+}
+.menubotones ul {
+  align-items: flex-end;
+  font-weight: bold;
+  gap: 45px;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+  display: inline;
+  gap: 3px;
+}
+.menubotones ul li {
+  display: inline-block;
+}
+.menubotones ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  border-color: black;
+  font-size: 17px;
+  padding: 0.5rem;
+  display: block;
+}
+.menubotones ul li a:hover {
+  color: black;
+}
+
+.suboton-principal {
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: #0D1D18;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.botones-principales {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+}
+
+.boton-enviar {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: #0D1D18;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  margin-top: 25px;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.img1 {
+  height: 45px;
+  width: 45px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0A1612;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maindex {
+  min-height: calc(100vh - 100px - 100px);
+  background-image: url(../assets/img/bodycasa.jpg);
+  background-size: cover;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0A1612;
+}
+
+.titulo {
+  color: #F7CE3E;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-comprar {
+  text-align: center;
+  margin: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.frase {
+  width: 100%;
+  height: 100px;
+  background-color: #0D1D18;
+  text-align: center;
+  border-top: 2px solid black;
+  align-self: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+}
+
+.frase-slogan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: white;
+  padding-top: 25px;
+}
+
+h1 {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 27px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  background-color: lightgreen;
+  display: grid;
+  grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+  justify-content: center;
+}
+
+.caja {
+  margin: 15px;
+}
+.caja img {
+  height: 180px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.caja p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.caja1 {
+  grid-area: item1;
+}
+
+.caja2 {
+  grid-area: item2;
+}
+
+.caja3 {
+  grid-area: item3;
+}
+
+.caja4 {
+  grid-area: item4;
+}
+
+.caja5 {
+  grid-area: item5;
+}
+
+.caja6 {
+  grid-area: item6;
+}
+
+.formulario-contacto {
+  width: 250px;
+  padding: 20px;
+  margin-top: 28px;
+  margin-left: 100px;
+  background-color: rgb(138, 138, 138);
+  border-color: black;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.formulario-contacto h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.formulario-contacto p {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.escribir {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  padding: 6px;
+  color: white;
+  border: 1px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+}
+
+.texto-recibir {
+  width: 100%;
+  padding: 6px;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+.maindex {
+  min-height: calc(100vh - 100px - 100px);
+  background-image: url(../assets/img/bodycasa.jpg);
+  background-size: cover;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0A1612;
+}
+
+.titulo {
+  color: #F7CE3E;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-comprar {
+  text-align: center;
+  margin: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.frase {
+  width: 100%;
+  height: 100px;
+  background-color: #0D1D18;
+  text-align: center;
+  border-top: 2px solid black;
+  align-self: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px;
+}
+
+.frase-slogan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  color: white;
+  padding-top: 25px;
+}
+
+h1 {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 27px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  background-color: lightgreen;
+  display: grid;
+  grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+  justify-content: center;
+}
+
+.caja {
+  margin: 15px;
+}
+.caja img {
+  height: 180px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.caja p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.caja1 {
+  grid-area: item1;
+}
+
+.caja2 {
+  grid-area: item2;
+}
+
+.caja3 {
+  grid-area: item3;
+}
+
+.caja4 {
+  grid-area: item4;
+}
+
+.caja5 {
+  grid-area: item5;
+}
+
+.caja6 {
+  grid-area: item6;
+}
+
+.formulario-contacto {
+  width: 250px;
+  padding: 20px;
+  margin-top: 28px;
+  margin-left: 100px;
+  background-color: rgb(138, 138, 138);
+  border-color: black;
+  border-radius: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.formulario-contacto h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.formulario-contacto p {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.escribir {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  padding: 6px;
+  color: white;
+  border: 1px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+}
+
+.texto-recibir {
+  width: 100%;
+  padding: 6px;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+
+@media (max-width: 420px) {
+  .menu {
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container1 img {
+    margin-left: 45px;
+  }
+  .titulo {
+    color: #F7CE3E;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: left;
+    justify-self: center;
+    margin-top: 13px;
+    padding-left: 0;
+  }
+  .titulo-comprar {
+    font-size: 20px;
+    text-align: left;
+  }
+  .titulodiv {
+    margin-left: -80px;
+    font-size: 20px;
+  }
+  .menubotones ul {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    display: inline;
+    gap: 3px;
+  }
+  .frase {
+    height: 100px;
+    background-color: #0D1D18;
+    border-top: 2px solid black;
+    bottom: 100px;
+  }
+  .formulario-contacto {
+    width: 250px;
+    padding: 20px;
+    margin-top: 28px;
+    margin-left: 20px;
+    background-color: rgb(138, 138, 138);
+    border-color: black;
+    border-radius: 4px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .titulo-vender {
+    margin-left: 20px;
+  }
+  .titulo-contacto {
+    margin-left: 20px;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 820px) {
+  .menu {
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 img {
+    margin-left: 45px;
+  }
+  .titulo {
+    color: #F7CE3E;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: left;
+    justify-self: center;
+    margin-top: 13px;
+    padding-left: 0;
+  }
+  .titulo-comprar {
+    font-size: 20px;
+    text-align: left;
+  }
+  .titulodiv {
+    margin-left: -80px;
+    font-size: 20px;
+  }
+  .menubotones ul {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    display: inline;
+    gap: 3px;
+  }
+  .titulo-vender {
+    margin-left: 20px;
+  }
+  .titulo-contacto {
+    margin-left: 20px;
+  }
+}
+footer {
+  width: 100%;
+  padding: 2rem 8%;
+  background-color: #0A1612;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=style.css~.map */
